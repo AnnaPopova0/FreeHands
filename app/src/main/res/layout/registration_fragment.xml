@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="freehands.freehandsapp2.Fragments.RegistrationFragment">
+
+    <FrameLayout
+        android:id="@+id/frame_registration"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#bdc1c1c1"
+        android:visibility="visible">
+
+        <ProgressBar
+            android:id="@+id/progress_registration"
+            android:maxWidth="200dp"
+            android:maxHeight="200dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:indeterminateDrawable="@drawable/progress"
+            android:visibility="invisible"/>
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+        <EditText
+            android:id="@+id/input_email_registration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"/>
+
+        <EditText
+            android:layout_below="@id/input_email_registration"
+            android:id="@+id/input_password_registration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"/>
+
+        <Button
+            android:id="@+id/register_btn"
+            android:layout_below="@id/input_password_registration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Register"
+            android:textSize="18sp"
+            android:background="#38B00F"
+            android:textColor="#fff"
+            android:layout_marginTop="20dp"
+            />
+    </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>

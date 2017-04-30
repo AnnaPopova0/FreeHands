@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">FreeHandsApp2</string>
+    <string name="Register"><u>Register</u></string>
+    <string name="title_activity_users_free_hands">UsersFreeHands</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="furniture_lvl_1">Furniture</string>
+    <string name="electronics_computers_lvl_1">Electronics &amp; computers</string>
+    <string name="clothing_shoes_jewelry_lvl_1">Clothing, Shoes &amp; Jewelry</string>
+    <string name="category4">Category 4</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_add_address">AddAddressActivity</string>
+</resources>

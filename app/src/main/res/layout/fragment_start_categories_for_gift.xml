@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    tools:context="freehands.freehandsapp2.Fragments.StartCategoriesForGiftFragment">
+
+
+    <Button
+        android:id="@+id/furniture_lvl_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/furniture_lvl_1" />
+
+    <Button
+        android:id="@+id/electronics_computers_lvl_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/electronics_computers_lvl_1" />
+
+    <Button
+        android:id="@+id/clothing_shoes_jewelry_lvl_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/clothing_shoes_jewelry_lvl_1" />
+
+</LinearLayout>
+
+
